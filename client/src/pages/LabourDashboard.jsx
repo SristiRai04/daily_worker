@@ -16,11 +16,12 @@ export default function LabourDashboard() {
   const [price, setPrice] =
     useState({});
 
-  useEffect(() => {
+// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
 
-    getRequests();
+  getRequests();
 
-  }, []);
+}, []);
 
   const getRequests = async () => {
 

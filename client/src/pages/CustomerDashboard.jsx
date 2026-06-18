@@ -44,11 +44,12 @@ export default function CustomerDashboard() {
 
   ];
 
-  useEffect(() => {
+// eslint-disable-next-line react-hooks/exhaustive-deps
+useEffect(() => {
 
-    getRequests();
+  getRequests();
 
-  }, []);
+}, []);
 
   // ======================
   // GET REQUESTS
